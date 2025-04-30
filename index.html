@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8"> <!-- Menentukan jenis karakter (UTF-8 untuk karakter internasional) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Agar tampilan responsive di semua perangkat -->
+    <title>Laporan-2</title> <!-- Judul halaman yang muncul di tab browser -->
+
+    <style>
+        /* Mengatur gaya umum seluruh halaman */
+        body {
+            font-family: Arial, sans-serif; /* Jenis huruf utama */
+            margin: 20px; /* Jarak isi halaman dari tepi */
+            font-size: 18px; /* Ukuran huruf standar */
+            background-color: #ffffff; /* Warna latar belakang putih */
+        }
+
+        /* Gaya untuk judul utama halaman */
+        .judul {
+            font-weight: bold;
+            color: black;
+        }
+
+        /* Gaya untuk nama mahasiswa */
+        .nama {
+            color: yellow; /* Warna teks kuning */
+            background-color: blue; /* Latar belakang biru */
+            padding: 10px;
+            font-size: 32px;
+        }
+
+        /* Gaya untuk NIM mahasiswa */
+        #nim {
+            color: blue;
+            font-size: 28px;
+        }
+
+        /* Semua paragraf diratakan ke kanan */
+        p {
+            text-align: right;
+        }
+
+        /* Gaya khusus untuk menyorot kata (latar biru dan teks putih miring) */
+        .highlight-blue {
+            background-color: blue;
+            color: white;
+            padding: 2px 5px;
+            font-style: italic;
+        }
+
+        /* Gaya khusus untuk menyorot kata (latar kuning dan teks miring) */
+        .highlight-yellow {
+            background-color: yellow;
+            padding: 2px 5px;
+            font-style: italic;
+        }
+
+        /* Gaya untuk tautan ke YouTube */
+        .link-judul a {
+            text-decoration: none; /* Menghapus garis bawah pada link */
+            color: black; /* Warna teks link hitam */
+            font-weight: bold;
+            font-size: 24px;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- Judul halaman laporan -->
+    <h1 class="judul">Ini adalah laporan ke 2 dari matakuliah Pemrograman Web</h1>
+
+    <!-- Nama mahasiswa dengan latar biru dan teks kuning -->
+    <h2 class="nama">Ahmad Zackly Yudiansyah</h2>
+
+    <!-- NIM mahasiswa berwarna biru -->
+    <h2 id="nim">202332127</h2>
+
+    <!-- Paragraf pertama, dengan kata "ipsum" diberi latar biru dan font miring -->
+    <p>Lorem <span class="highlight-blue"><i>ipsum</i></span> dolor sit amet consectetur adipisicing elit. Sed quod fuga magni ipsa ipsam atque? Sed vero, quasi nemo illo ea maiores vel itaque deserunt modi unde libero sunt debitis.</p>
+
+    <!-- Paragraf kedua, dengan kata "amet" diberi latar kuning dan font miring -->
+    <p>Lorem ipsum dolor sit <span class="highlight-yellow"><i>amet</i></span> consectetur adipisicing elit. Suscipit est mollitia assumenda cum quisquam perferendis minima, unde fugit aspernatur itaque, doloribus excepturi officia voluptatum adipisci alias provident error ipsa expedita.</p>
+
+    <!-- Tautan menuju situs YouTube -->
+    <h3 class="link-judul"><a href="https://youtu.be/5UpgkvcLp4Y" target="_blank">Link menuju youtube</a></h3>
+</body>
+</html>
